@@ -1,6 +1,5 @@
 {
   "name": "webfontloader",
-  "main": "webfontloader.js",
   "version": "1.6.6",
   "homepage": "https://github.com/zeixcom/webfontloader",
   "authors": [
@@ -15,5 +14,17 @@
     "loader",
     "fout"
   ],
-  "license": "MIT"
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "main": [
+    "webfontloader.js"
+  ],
+  "ignore": [
+    ".travis.yml",
+    "bower.json"
+  ]
 }
